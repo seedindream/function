@@ -58,7 +58,7 @@ print platform.platform()
 print platform.system()
 
 
-cmdCommand = 'powershell D:\\home\\record.exe' #specify your cmd command
+cmdCommand = 'powershell D:\\home\\site\\wwwroot\\mytestfunction01\\record.exe' #specify your cmd command
 process = subprocess.Popen(cmdCommand.split(), shell=True,stdout=subprocess.PIPE)
 output5, error = process.communicate()
 print output5
